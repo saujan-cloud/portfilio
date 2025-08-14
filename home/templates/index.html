@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saujan Shrestha | Full-Stack Developer</title>
+  <style>
+    :root {
+      --bg-color: #f4f4f9;
+      --primary-color: #2c3e50;
+      --accent-color: #3498db;
+      --text-color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header, section, footer {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero img {
+      border-radius: 50%;
+      margin-top: 1rem;
+      width: 150px;
+      height: 150px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    .skills {
+      margin-top: 1rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: white;
+      padding: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+      color: var(--accent-color);
+    }
+
+    .project-card a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      margin: 0 0.5rem;
+      color: var(--primary-color);
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #e0e0e5;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .hero img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Saujan Shrestha</h1>
+    <p>I build scalable web apps and love turning ideas into reality using code.</p>
+    <img src="https://via.placeholder.com/150" alt="Profile picture of Saujan Shrestha" />
+  </header>
+
+  <section aria-labelledby="about-me">
+    <h2 id="about-me">About Me</h2>
+    <p>I am a full-stack developer passionate about building responsive and efficient web applications. I enjoy learning new technologies and solving real-world problems through code.</p>
+    <p>My focus is on creating user-friendly experiences with clean, maintainable code.</p>
+    <div class="skills">
+      <strong>Skills:</strong>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>React</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="projects">
+    <h2 id="projects">Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Task Manager App</h3>
+        <p>A Django app to manage daily tasks with user auth and CRUD operations.</p>
+        <a href="https://github.com/aaryamehta" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio, built with HTML, CSS, and deployed on Render.</p>
+        <a href="https://github.com/aaryamehta" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>API Weather Dashboard</h3>
+        <p>A real-time weather app built with JavaScript and OpenWeatherMap API.</p>
+        <a href="https://github.com/aaryamehta" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" aria-labelledby="contact">
+    <h2 id="contact">Contact</h2>
+    <p>
+      <a href="mailto:saujanshrestha61@gmail.com" aria-label="Email">📧</a>
+      <a href="https://github.com/aaryamehta" target="_blank" rel="noopener" aria-label="GitHub">🐙</a>
+      <a href="https://linkedin.com/in/aaryamehta" target="_blank" rel="noopener" aria-label="LinkedIn">🔗</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 saujan Shrestha
+  </footer>
+</body>
+</html>
+
